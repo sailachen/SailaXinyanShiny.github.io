@@ -1,0 +1,25 @@
+---
+title: "XinyanZheng and SailaChen HW6"
+---
+
+**_Dataset Introduction:_**
+
+This website includes [Instacart dataset](https://www.instacart.com/datasets/grocery-shopping-2017 ) analysis made by Xinyan Zheng and Saila Chen. The original dataset is very extensive, so the dataset we used here is a cleaned and limited version of the original dataset which contains 1,384,617 observations of 131,209 unique users. It includes 15 variables. In our analysis, we only interested in several varaibles that are shown below:
+    department: the name of the department
+    product_name: name of the product
+    order_hour_of_day: the hour of the day on which the order was placed
+    order_dow: the day of the week on which the order was placed 
+
+**_Analysis Processing Steps:_**
+
+**First**, we wanted to analysis the distribution of number of orders over time to find out when people generally place their orders. We counted the number of orders in each hour of the day and made a bar plot. The first plot in Plotly Dashboard show the data for orders that are managed by produce department. We counted the number of orders in each order hour of a day. But in Shiny Dashboard, we added a selectInput widget and a sliderInput widget for users to choose their preferred department and time range. So, the first plot in Shiny Dashiboard can show the number of order in selected time range and selected department.
+
+**Second**, we aimed to show when each popular product is generally ordered in a day. Similar as the first plot, in Plotly Dashboard, we only analysised data of produce department. We filtered out the top 8 popular products of produce department, and made a boxplot to show the distribution of order hour of day for each popular product. But in Shiny Dashboard, users can choose to see the result of different department.
+
+**Third**, we tired show the number of order in each day of week in select department and selected time range. In Plotly Dashboard, we made a heatmap to show the distribution of number of orders in each day of week for the top 8 popular deparments. When users put their cursor on the graph, the department(x), order day of week(y) and number of orders(z) will show up. In Shiny Dashboard, in contrast with the thrid plot in Plotly Dashboard, we chose to show the distribution of number of orders in each day of week for the 8 least popular deparments. But users can chose one of the 8 most popular department, and compare the distribution of it with the distributions of the 8 least popular departments. 
+
+
+**_Links_**
+　[The Plotly Dashboard for Instacart Data](p8105_hw6_xz2678 copy.html)
+　[The Shiny Dashboard for Instacart Data](https://xinyanzheng.shinyapps.io/instacart_shiny/)
+　[GitHub repo that underly dashboards ](https://github.com/xinyanzh/hw6)
