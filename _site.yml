@@ -1,0 +1,13 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Plotly"
+      href: p8105_hw6_xz2678 copy.html
+    - text: "Shiny"
+      href: https://xinyanzheng.shinyapps.io/instacart_shiny/
+    - icon: fa-github fa-lg
+      href: https://github.com/xinyanzh/hw6
+output:
+  html_document
