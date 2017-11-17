@@ -27,4 +27,4 @@ This website includes [Instacart dataset](https://www.instacart.com/datasets/gro
 　
 　
 　
-　[GitHub Repo That Underly Website](https://github.com/sailachen/SailaXinyanShiny.github.io/settings)
+　[GitHub Repo That Underly Website](https://github.com/sailachen/SailaXinyanShiny.github.io)
